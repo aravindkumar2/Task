@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.task {
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+#main h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hm {
+    display: flex;
+    gap: 25px;
+}
+
+.he {
+    display: flex;
+    gap: 20px;
+}
+
+/* HERO */
+.hero {
+    margin-top: 120px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    max-width: 500px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+
+#start {
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 1px 2px 4px gray;
+}
+
+#watch {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    box-shadow: 1px 2px 4px gray;
+}
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box img {
+    width: 320px;
+    box-shadow: 0 0 18px;
+}
+
+/* overlay card */
+#p1 {
+    position: absolute;
+    bottom: -20px;   /* overlaps image */
+    left: -20px;
+    width: 60%;
+    padding: 7px;
+    background: white;
+    box-shadow: 0 0 18px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
